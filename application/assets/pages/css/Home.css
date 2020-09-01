@@ -1,0 +1,66 @@
+.tiles .tile{
+  border-radius: 10px !important; 
+  height: 113px !important;
+  border: 0px !important;
+  width: 150px !important;
+}
+.tile-body{
+  padding: 0px !important;
+}
+.tile-body .fa{
+  padding-right: 10px !important;
+}
+.tile-object .name{
+  position: relative !important;
+  text-align: center !important;
+}
+.content{
+    font-size: 12px !important;
+    font-family: verdana;
+}
+/* round button and blinking animation css*/
+.equip-warning{background: #FFA500 !important;}
+.equip-on{background: #60C060 !important;}
+.equip-off{background: #DA4932 !important;}
+.round-button {
+  width:20px;
+  display: inline-block;
+}
+.round-button-circle {
+  width: 16px;
+  height:0;
+  padding-bottom: 64%;
+    border-radius: 50%;
+  
+    overflow:hidden;
+    
+    background: #4679BD; 
+    //box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+  background:#30588e;
+}
+.round-button a {
+    display:block;
+  float:left;
+  width:100%;
+  padding-top:50%;
+    padding-bottom:50%;
+  line-height:1em;
+  margin-top:-0.5em;
+    
+  text-align:center;
+  color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}

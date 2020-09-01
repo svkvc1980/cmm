@@ -1,0 +1,26 @@
+php_flag display_errors off
+
+# Set the default handler.
+DirectoryIndex index.php
+
+# Various rewrite rules.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond $1 !^(index\.php) 
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)\.htm$ index.php?/$1 [L,QSA]
+
+  RewriteCond $1 !^(index\.php) 
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php?/$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L]
+
+</IfModule>
+
+Options -Indexes

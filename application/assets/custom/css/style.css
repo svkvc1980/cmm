@@ -1,0 +1,36 @@
+/*
+** CUSTOM STYLESHEET
+** AUTHOR: MAHESH
+** CREATED ON: 10-11-2016 14:58
+*/
+.scroll-to-top{
+	bottom:20px !important;
+}
+.dataTables_info{
+	padding-top: 7px;
+}
+.dataTables_paginate {
+    float: right;
+    padding-top: 0.25em;
+    text-align: right;
+}
+table thead th {
+    background-color: #6b9bcf;
+    color: #f7f9fa;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 5px;
+}
+
+.dropdown-menu table thead th {
+    background-color: inherit;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 200;
+    padding: inherit;
+}
+
+.bootstrap-tagsinput{ width: 100%;}
+.distributor_address p{ margin-bottom: 10px !important;}
+.distributor_bg_list .portlet-body{ padding: 0px !important;}
+.distributor_bg_list table td, .distributor_bg_list table th{ font-size: 12px;}

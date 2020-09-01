@@ -1,0 +1,138 @@
+.padding {
+  
+  /*margin:3px; */
+  padding:2px;
+   }
+.green {
+background-color: #DEFABF;
+/*margin:3px; */
+padding:2px;
+ }
+.blue {
+background-color: #C7ECFE;
+/*margin:3px; */
+padding:2px;
+ }
+ .project_dd {
+background-color: #E7EDDF;
+/*margin:3px; */
+padding:2px;
+ }
+.project_dd a{
+	color: #767676;
+}
+.margin{
+	margin: 8px;
+	padding-left: 20px;
+	font-weight: 600;
+}
+
+.col-md-3.first_note_block{
+	padding-left: 0px !important;
+	padding-right: 0px;
+	margin-right: 10px;
+
+}
+.note_background{
+	background-color:  #637E99;
+	color: #FFF;
+	padding: 7px !important;
+	height: 45px;
+	margin: 0 0 10px !important;
+}
+.page_background{
+	background-color: #BAD2D8;
+}
+.font_color{
+	color: #5B7BA4;
+}
+.border_right{
+	border-right: thin double #A0A0A0;
+}
+.row-eq-height {
+    display: flex;
+}
+.effort_entry{
+	border-radius: 5px !important;
+	border-color: #cccccc;
+	height: 25px;
+	width: 70px;
+}
+.task_name{
+	margin-top: 10px;
+	margin-left: 30px;
+	font-weight: 600;
+}
+.effort_input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.effort_side_bar{
+	margin-right: 10px;
+}
+.heading_side_bar{
+	/*margin-right: 10px;*/
+}
+
+.effort_filling_statusbar {
+    background-color: green;
+    display: flex;
+    height: 2px;
+    width: 100%;
+}
+.effort_day{
+	padding: 1px;
+	border-right: thin double #A0A0A0;
+}
+.filled{
+	background-color: #6DA830;
+}
+.holiday{
+	background-color: #00C1D4;
+}
+.not_filled{
+	background-color: #FDB900;
+}
+.week_off{
+	background-color: #808080;
+}
+.note_label{
+	float: left;
+	width: 70%;
+	font-size: 13px;
+}
+.note_value{
+	float: right;
+	width: 30%;
+	font-size: 18px;
+}
+.project_toggle{
+	float: right;
+	width: 10%;
+	margin-top: 10px;
+}
+.project_name{
+	float: left;
+	width: 90%;
+	padding:10px 0px 10px 28px;
+	font-weight: 600;
+}
+.toggle_align{
+	margin-top: 7px;
+	/*padding: 7px !important;
+	margin: 0 0 10px !important;*/
+}
+.col-md-3.first_well_block{
+	padding-left: 10px !important;
+	padding-right: 0px;
+	margin-right: 10px;
+
+}
+.well_background{
+	background-color:  #E1E5EC;
+	color: #FFF;
+	padding: 7px !important;
+	height: 45px;
+	margin: 0 0 10px !important;
+}
